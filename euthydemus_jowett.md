@@ -1,32 +1,32 @@
-﻿# Euthydemus
+﻿---
+title: Euthydemus
+author: Plato
+translator: Benjamin Jowett
+---
 
-## by Plato
-
-### Translation by Benjamin Jowett
-
-Crito: Who was the person, Socrates, with whom you were talking
+**Crito:** Who was the person, Socrates, with whom you were talking
 yesterday at the Lyceum? There was such a crowd around you that I could
 not get within hearing, but I caught a sight of him over their heads,
 and I made out, as I thought, that he was a stranger with whom you were
 talking: who was he?
 
-Socrates: There were two, Crito; which of them do you mean?
+**Socrates:** There were two, Crito; which of them do you mean?
 
-Crito: The one whom I mean was seated second from you on the right-hand
+**Crito:** The one whom I mean was seated second from you on the right-hand
 side. In the middle was Cleinias the young son of Axiochus, who has
 wonderfully grown; he is only about the age of my own Critobulus, but
 he is much forwarder and very good-looking: the other is thin and looks
 younger than he is.
 
-Socrates: He whom you mean, Crito, is Euthydemus; and on my left
+**Socrates:** He whom you mean, Crito, is Euthydemus; and on my left
 hand there was his brother Dionysodorus, who also took part in the
 conversation.
 
-Crito: Neither of them are known to me, Socrates; they are a new
+**Crito:** Neither of them are known to me, Socrates; they are a new
 importation of Sophists, as I should imagine. Of what country are they,
 and what is their line of wisdom?
 
-Socrates: As to their origin, I believe that they are natives of this
+**Socrates:** As to their origin, I believe that they are natives of this
 part of the world, and have migrated from Chios to Thurii; they were
 driven out of Thurii, and have been living for many years past in
 these regions. As to their wisdom, about which you ask, Crito, they
@@ -46,10 +46,10 @@ the war of words, that they can refute any proposition whether true or
 false. Now I am thinking, Crito, of placing myself in their hands; for
 they say that in a short time they can impart their skill to any one.
 
-Crito: But, Socrates, are you not too old? there may be reason to fear
+**Crito:** But, Socrates, are you not too old? there may be reason to fear
 that.
 
-Socrates: Certainly not, Crito; as I will prove to you, for I have the
+**Socrates:** Certainly not, Crito; as I will prove to you, for I have the
 consolation of knowing that they began this art of disputation which I
 covet, quite, as I may say, in old age; last year, or the year before,
 they had none of their new wisdom. I am only apprehensive that I may
@@ -64,11 +64,11 @@ and I hope that you will make one: and perhaps we had better take your
 sons as a bait; they will want to have them as pupils, and for the sake
 of them willing to receive us.
 
-Crito: I see no objection, Socrates, if you like; but first I wish
+**Crito:** I see no objection, Socrates, if you like; but first I wish
 that you would give me a description of their wisdom, that I may know
 beforehand what we are going to learn.
 
-Socrates: In less than no time you shall hear; for I cannot say that I
+**Socrates:** In less than no time you shall hear; for I cannot say that I
 did not attend--I paid great attention to them, and I remember and will
 endeavour to repeat the whole story. Providentially I was sitting alone
 in the dressing-room of the Lyceum where you saw me, and was about to
@@ -1102,28 +1102,28 @@ the keeper of them. If we are looking for the art which is to make us
 blessed, and which is able to use that which it makes or takes, the art
 of the general is not the one, and some other must be found.
 
-Crito: And do you mean, Socrates, that the youngster said all this?
+**Crito:** And do you mean, Socrates, that the youngster said all this?
 
-Socrates: Are you incredulous, Crito?
+**Socrates:** Are you incredulous, Crito?
 
-Crito: Indeed, I am; for if he did say so, then in my opinion he needs
+**Crito:** Indeed, I am; for if he did say so, then in my opinion he needs
 neither Euthydemus nor any one else to be his instructor.
 
-Socrates: Perhaps I may have forgotten, and Ctesippus was the real
+**Socrates:** Perhaps I may have forgotten, and Ctesippus was the real
 answerer.
 
-Crito: Ctesippus! nonsense.
+**Crito:** Ctesippus! nonsense.
 
-Socrates: All I know is that I heard these words, and that they were not
+**Socrates:** All I know is that I heard these words, and that they were not
 spoken either by Euthydemus or Dionysodorus. I dare say, my good Crito,
 that they may have been spoken by some superior person: that I heard
 them I am certain.
 
-Crito: Yes, indeed, Socrates, by some one a good deal superior, as I
+**Crito:** Yes, indeed, Socrates, by some one a good deal superior, as I
 should be disposed to think. But did you carry the search any further,
 and did you find the art which you were seeking?
 
-Socrates: Find! my dear sir, no indeed. And we cut a poor figure; we
+**Socrates:** Find! my dear sir, no indeed. And we cut a poor figure; we
 were like children after larks, always on the point of catching the art,
 which was always getting away from us. But why should I repeat the whole
 story? At last we came to the kingly art, and enquired whether that
@@ -1131,14 +1131,14 @@ gave and caused happiness, and then we got into a labyrinth, and when
 we thought we were at the end, came out again at the beginning, having
 still to seek as much as ever.
 
-Crito: How did that happen, Socrates?
+**Crito:** How did that happen, Socrates?
 
-Socrates: I will tell you; the kingly art was identified by us with the
+**Socrates:** I will tell you; the kingly art was identified by us with the
 political.
 
-Crito: Well, and what came of that?
+**Crito:** Well, and what came of that?
 
-Socrates: To this royal or political art all the arts, including the art
+**Socrates:** To this royal or political art all the arts, including the art
 of the general, seemed to render up the supremacy, that being the only
 one which knew how to use what they produce. Here obviously was the
 very art which we were seeking--the art which is the source of good
@@ -1146,94 +1146,94 @@ government, and which may be described, in the language of Aeschylus, as
 alone sitting at the helm of the vessel of state, piloting and governing
 all things, and utilizing them.
 
-Crito: And were you not right, Socrates?
+**Crito:** And were you not right, Socrates?
 
-Socrates: You shall judge, Crito, if you are willing to hear what
+**Socrates:** You shall judge, Crito, if you are willing to hear what
 followed; for we resumed the enquiry, and a question of this sort was
 asked: Does the kingly art, having this supreme authority, do anything
 for us? To be sure, was the answer. And would not you, Crito, say the
 same?
 
-Crito: Yes, I should.
+**Crito:** Yes, I should.
 
-Socrates: And what would you say that the kingly art does? If medicine
+**Socrates:** And what would you say that the kingly art does? If medicine
 were supposed to have supreme authority over the subordinate arts, and
 I were to ask you a similar question about that, you would say--it
 produces health?
 
-Crito: I should.
+**Crito:** I should.
 
-Socrates: And what of your own art of husbandry, supposing that to have
+**Socrates:** And what of your own art of husbandry, supposing that to have
 supreme authority over the subject arts--what does that do? Does it not
 supply us with the fruits of the earth?
 
-Crito: Yes.
+**Crito:** Yes.
 
-Socrates: And what does the kingly art do when invested with supreme
+**Socrates:** And what does the kingly art do when invested with supreme
 power? Perhaps you may not be ready with an answer?
 
-Crito: Indeed I am not, Socrates.
+**Crito:** Indeed I am not, Socrates.
 
-Socrates: No more were we, Crito. But at any rate you know that if this
+**Socrates:** No more were we, Crito. But at any rate you know that if this
 is the art which we were seeking, it ought to be useful.
 
-Crito: Certainly.
+**Crito:** Certainly.
 
-Socrates: And surely it ought to do us some good?
+**Socrates:** And surely it ought to do us some good?
 
-Crito: Certainly, Socrates.
+**Crito:** Certainly, Socrates.
 
-Socrates: And Cleinias and I had arrived at the conclusion that
+**Socrates:** And Cleinias and I had arrived at the conclusion that
 knowledge of some kind is the only good.
 
-Crito: Yes, that was what you were saying.
+**Crito:** Yes, that was what you were saying.
 
-Socrates: All the other results of politics, and they are many, as for
+**Socrates:** All the other results of politics, and they are many, as for
 example, wealth, freedom, tranquillity, were neither good nor evil in
 themselves; but the political science ought to make us wise, and impart
 knowledge to us, if that is the science which is likely to do us good,
 and make us happy.
 
-Crito: Yes; that was the conclusion at which you had arrived, according
+**Crito:** Yes; that was the conclusion at which you had arrived, according
 to your report of the conversation.
 
-Socrates: And does the kingly art make men wise and good?
+**Socrates:** And does the kingly art make men wise and good?
 
-Crito: Why not, Socrates?
+**Crito:** Why not, Socrates?
 
-Socrates: What, all men, and in every respect? and teach them all the
+**Socrates:** What, all men, and in every respect? and teach them all the
 arts,--carpentering, and cobbling, and the rest of them?
 
-Crito: I think not, Socrates.
+**Crito:** I think not, Socrates.
 
-Socrates: But then what is this knowledge, and what are we to do with
+**Socrates:** But then what is this knowledge, and what are we to do with
 it? For it is not the source of any works which are neither good nor
 evil, and gives no knowledge, but the knowledge of itself; what then can
 it be, and what are we to do with it? Shall we say, Crito, that it is
 the knowledge by which we are to make other men good?
 
-Crito: By all means.
+**Crito:** By all means.
 
-Socrates: And in what will they be good and useful? Shall we repeat
+**Socrates:** And in what will they be good and useful? Shall we repeat
 that they will make others good, and that these others will make others
 again, without ever determining in what they are to be good; for we have
 put aside the results of politics, as they are called. This is the old,
 old song over again; and we are just as far as ever, if not farther,
 from the knowledge of the art or science of happiness.
 
-Crito: Indeed, Socrates, you do appear to have got into a great
+**Crito:** Indeed, Socrates, you do appear to have got into a great
 perplexity.
 
-Socrates: Thereupon, Crito, seeing that I was on the point of shipwreck,
+**Socrates:** Thereupon, Crito, seeing that I was on the point of shipwreck,
 I lifted up my voice, and earnestly entreated and called upon the
 strangers to save me and the youth from the whirlpool of the argument;
 they were our Castor and Pollux, I said, and they should be serious, and
 show us in sober earnest what that knowledge was which would enable us
 to pass the rest of our lives in happiness.
 
-Crito: And did Euthydemus show you this knowledge?
+**Crito:** And did Euthydemus show you this knowledge?
 
-Socrates: Yes, indeed; he proceeded in a lofty strain to the following
+**Socrates:** Yes, indeed; he proceeded in a lofty strain to the following
 effect: Would you rather, Socrates, said he, that I should show you this
 knowledge about which you have been doubting, or shall I prove that you
 already have it?
@@ -2031,7 +2031,7 @@ money; no age or want of capacity is an impediment. And I must repeat
 one thing which they said, for your especial benefit,--that the learning
 of their art did not at all interfere with the business of money-making.
 
-Crito: Truly, Socrates, though I am curious and ready to learn, yet I
+**Crito:** Truly, Socrates, though I am curious and ready to learn, yet I
 fear that I am not like-minded with Euthydemus, but one of the other
 sort, who, as you were saying, would rather be refuted by such
 arguments than use them in refutation of others. And though I may appear
@@ -2059,17 +2059,17 @@ others, appears to me to be undeserved; but as to the impropriety of
 holding a public discussion with such men, there, I confess that, in my
 opinion, he was in the right.
 
-Socrates: O Crito, they are marvellous men; but what was I going to say?
+**Socrates:** O Crito, they are marvellous men; but what was I going to say?
 First of all let me know;--What manner of man was he who came up to you
 and censured philosophy; was he an orator who himself practises in the
 courts, or an instructor of orators, who makes the speeches with which
 they do battle?
 
-Crito: He was certainly not an orator, and I doubt whether he had ever
+**Crito:** He was certainly not an orator, and I doubt whether he had ever
 been into court; but they say that he knows the business, and is a
 clever man, and composes wonderful speeches.
 
-Socrates: Now I understand, Crito; he is one of an amphibious class,
+**Socrates:** Now I understand, Crito; he is one of an amphibious class,
 whom I was on the point of mentioning--one of those whom Prodicus
 describes as on the border-ground between philosophers and
 statesmen--they think that they are the wisest of all men, and that
@@ -2085,10 +2085,10 @@ wisdom; there is reason in what they say, for they argue that they have
 just enough of both, and so they keep out of the way of all risks and
 conflicts and reap the fruits of their wisdom.
 
-Crito: What do you say of them, Socrates? There is certainly something
+**Crito:** What do you say of them, Socrates? There is certainly something
 specious in that notion of theirs.
 
-Socrates: Yes, Crito, there is more speciousness than truth; they cannot
+**Socrates:** Yes, Crito, there is more speciousness than truth; they cannot
 be made to understand the nature of intermediates. For all persons or
 things, which are intermediate between two other things, and participate
 in both of them--if one of these two things is good and the other evil,
@@ -2112,7 +2112,7 @@ for every man ought to be loved who says and manfully pursues and works
 out anything which is at all like wisdom: at the same time we shall do
 well to see them as they really are.
 
-Crito: I have often told you, Socrates, that I am in a constant
+**Crito:** I have often told you, Socrates, that I am in a constant
 difficulty about my two sons. What am I to do with them? There is
 no hurry about the younger one, who is only a child; but the other,
 Critobulus, is getting on, and needs some one who will improve him.
@@ -2125,24 +2125,24 @@ pretend to educate others, I am amazed. To me, if I am to confess the
 truth, they all seem to be such outrageous beings: so that I do not know
 how I can advise the youth to study philosophy.
 
-Socrates: Dear Crito, do you not know that in every profession the
+**Socrates:** Dear Crito, do you not know that in every profession the
 inferior sort are numerous and good for nothing, and the good are few
 and beyond all price: for example, are not gymnastic and rhetoric and
 money-making and the art of the general, noble arts?
 
-Crito: Certainly they are, in my judgment.
+**Crito:** Certainly they are, in my judgment.
 
-Socrates: Well, and do you not see that in each of these arts the many
+**Socrates:** Well, and do you not see that in each of these arts the many
 are ridiculous performers?
 
-Crito: Yes, indeed, that is very true.
+**Crito:** Yes, indeed, that is very true.
 
-Socrates: And will you on this account shun all these pursuits yourself
+**Socrates:** And will you on this account shun all these pursuits yourself
 and refuse to allow them to your son?
 
-Crito: That would not be reasonable, Socrates.
+**Crito:** That would not be reasonable, Socrates.
 
-Socrates: Do you then be reasonable, Crito, and do not mind whether the
+**Socrates:** Do you then be reasonable, Crito, and do not mind whether the
 teachers of philosophy are good or bad, but think only of philosophy
 herself. Try and examine her well and truly, and if she be evil seek to
 turn away all men from her, and not your sons only; but if she be what I
