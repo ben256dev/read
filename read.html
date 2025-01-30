@@ -9,6 +9,8 @@
             --text: #000;
             --page: #FFFBF4;
             --background: #333;
+            --nav: #222;
+            --active: #F0A500
         }
         html {
             font-size: 1em;
@@ -59,6 +61,13 @@
             margin-top: 6em;
             margin-bottom: 8em;
         }
+        .nav-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+        }
         .navigation {
             text-align: center;
             margin-bottom: 30px;
@@ -85,8 +94,7 @@
         .nav {
             display: flex;
             justify-content: center; /* Center links horizontally */
-            gap: 20px; /* Spacing between links */
-            background: #222; /* Dark background */
+            background: var(--nav); /* Dark background */
             padding: 0;
             position: fixed; /* Sticks to the top */
             top: 0;
@@ -100,31 +108,110 @@
             text-decoration: none;
             font-size: 18px;
             font-weight: bold;
-            transition: color 0.3s;
+            transition: color 0.2s;
+            padding-left: 1em;
+            padding-right: 1em;
         }
 
         .nav a:hover {
-            color: #f0a500; /* Highlight color on hover */
+            color: var(--active); /* Highlight color on hover */
+        }
+
+        .nav a.active {
+            background: var(--active);
+            color: var(--nav);
+        }
+
+        .nav a.active:hover {
+            color: white;
         }
 
         .scroll-progress {
             position: fixed;
-            top: 0;
+            top: calc(2rem);
             left: 0;
             width: 0%;
             height: 5px;
-            background: #f39c12;
+            background: var(--active);
             z-index: 9999;
+        }
+    </style>
+    <style>
+        /* Medium screens (tablets) */
+        @media (max-width: 1024px) {
+            body {
+                width: 70%; /* Increase width for tablets */
+                margin: 3em auto; /* Reduce margin for tablets */
+                padding: 2em; /* Adjust padding for tablets */
+                font-size: 1.4rem; /* Slightly smaller font size */
+            }
+
+            .nav a {
+                font-size: 16px; /* Slightly smaller navigation text */
+            }
+        }
+
+        /* Small screens (phones) */
+        @media (max-width: 768px) {
+            body {
+                width: 90%; /* Full width for phones */
+                margin: 2em auto; /* Reduce margin */
+                padding: 1.5em; /* Less padding on phones */
+                font-size: 1.2rem; /* Smaller font size for better readability */
+                box-shadow: none; /* Remove box shadow on small screens */
+            }
+
+            h1, h2, h3 {
+                font-size: 1.5em; /* Smaller titles */
+            }
+
+            .nav a {
+                font-size: 14px; /* Smaller font size for nav links */
+            }
+
+            .scroll-progress {
+                height: 3px; /* Thinner progress bar */
+            }
+
+            .titles {
+                margin-top: 4em;
+                margin-bottom: 5em;
+            }
+
+            hr {
+                width: 90%; /* Make horizontal rule width match the body width */
+            }
+        }
+
+        /* Very small screens (small phones) */
+        @media (max-width: 480px) {
+            body {
+                width: 95%; /* Use almost full width */
+                margin: 1em auto; /* Minimal margin */
+                padding: 1em; /* Minimal padding */
+                font-size: 1rem; /* Further reduce font size */
+            }
+
+            h1, h2, h3 {
+                font-size: 1.3em; /* Even smaller titles */
+            }
+
+            .nav a {
+                font-size: 12px; /* Smallest nav text for small screens */
+            }
         }
     </style>
 </head>
 <body>
-    <section class="nav">
-        <a>Home</a>
-        <a>About</a>
-        <a>Contact</a>
+    <header class="nav-container">
+        <section class="nav">
+            <a href="/read/euthyphro">Euthyphro</a>
+            <a href="/read/ion">Ion</a>
+            <a href="/read/laches">Laches</a>
+            <a href="/read/meno">Meno</a>
+        </section>
         <div class="scroll-progress"></div>
-    </section>
+    </header>
 
     <section class="titles">
         <h1> $title$ </h1>
@@ -153,4 +240,15 @@
         let scrollPercentage = (scrollTop / scrollHeight) * 100;
         document.querySelector(".scroll-progress").style.width = scrollPercentage + "%";
     }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const pageTitle = document.title.trim().toLowerCase();
+        const navLinks = document.querySelectorAll(".nav a");
+
+        navLinks.forEach(link => {
+            if (link.innerText.trim().toLowerCase() === pageTitle) {
+                link.classList.add("active");
+            }
+        });
+    });
 </script>
