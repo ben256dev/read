@@ -301,7 +301,9 @@ I will suggest that these enmities arise when the matters of difference
 are the just and unjust, good and evil, honourable and dishonourable.
 Are not these the points about which men differ, and about which when we
 are unable satisfactorily to decide our differences, you and I and all
-of us quarrel, when we do quarrel? (Compare Alcib.)
+of us quarrel, when we do quarrel? [^1]
+
+[^1]: Compare [Alcibi.](https://www.gutenberg.org/files/1676/1676-h/1676-h.htm):
 
 **Euthyphro:** Yes, Socrates, the nature of the differences about which we
 quarrel is such as you describe.
@@ -534,9 +536,9 @@ which is dear to God would have been loved as being dear to God; but if
 that which is dear to God is dear to him because loved by him, then that
 which is holy would have been holy because loved by him. But now you see
 that the reverse is the case, and that they are quite different from
-one another. For one (theophiles) is of a kind to be loved cause it
-is loved, and the other (osion) is loved because it is of a kind to
-be loved. Thus you appear to me, Euthyphro, when I ask you what is
+one another. For one is of a kind to be loved cause it
+is loved, and the other is loved because it is of a kind to
+be loved.[^2] Thus you appear to me, Euthyphro, when I ask you what is
 the essence of holiness, to offer an attribute only, and not the
 essence--the attribute of being loved by all the gods. But you still
 refuse to explain to me the nature of holiness. And therefore, if you
@@ -544,6 +546,10 @@ please, I will ask you not to hide your treasure, but to tell me once
 more what holiness or piety really is, whether dear to the gods or not
 (for that is a matter about which we will not quarrel); and what is
 impiety?
+
+[^2]: "For one _(theophiles)_ is of a kind to be loved cause it
+is loved, and the other _(osion)_ is loved because it is of a kind to
+be loved."
 
 **Euthyphro:** I really do not know, Socrates, how to express what I mean.
 For somehow or other our arguments, on whatever ground we rest them,
@@ -810,7 +816,9 @@ from our gifts. There is no doubt about what they give to us; for there
 is no good thing which they do not give; but how we can give any good
 thing to them in return is far from being equally clear. If they give
 everything and we give nothing, that must be an affair of business in
-which we have very greatly the advantage of them.
+which we have very greatly the advantage of them. [^3]
+
+[^3]: See [Memorabilia](memorabilia#i.iii) for the religious practice of Socrates.
 
 **Euthyphro:** And do you imagine, Socrates, that any benefit accrues to the
 gods from our gifts?
