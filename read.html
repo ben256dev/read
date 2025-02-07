@@ -38,10 +38,9 @@
             padding-top: 1em;
         }
         blockquote {
-            border-left: 4px solid #555;
+            border-left: 4px solid var(--active);
             padding-left: 20px;
-            font-style: italic;
-            color: #444;
+            color: var(--text);
         }
         p {
             text-align: justify;
@@ -141,6 +140,9 @@
             background: var(--active);
             z-index: 9999;
         }
+        .hidden {
+            display: none;
+        }
     </style>
     <style>
         /* Medium screens (tablets) */
@@ -215,6 +217,7 @@
             <a href="/read/ion">Ion</a>
             <a href="/read/laches">Laches</a>
             <a href="/read/meno">Meno</a>
+            <a href="/read/apology">Apology</a>
         </section>
         <div class="scroll-progress"></div>
     </header>
@@ -222,7 +225,7 @@
     <section class="titles">
         <h1> $title$ </h1>
         <h2> by $author$ </h2>
-        <h3> Translation by $translator$ </h3>
+        <h3 id="translator-line"> Translation by $translator$ </h3>
     </section>
 
     <hr>
@@ -256,5 +259,13 @@
                 link.classList.add("active");
             }
         });
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const translatorElement = document.getElementById("translator-line");
+
+        if (translatorElement.innerText.trim().toLowerCase() === "translation by original") {
+            translatorElement.classList.add("hidden");
+        }
     });
 </script>

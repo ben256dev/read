@@ -7,5 +7,5 @@ for f in *.md; do
 
     echo -ne "\033[2K  ...\r"
     mv "$new_file" ../public/read/
-    echo -ne "\033[2K $new_file\r\n"
+    echo -ne "\033[2K$new_file\r\n"
 done
