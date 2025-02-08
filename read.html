@@ -19,7 +19,7 @@
         body {
             font-size: 1.5rem;
             font-family: "Georgia", "Times New Roman", serif;
-            width: 50%;
+            width: 60%;
             margin: 5em auto;
             padding-right: 5em;
             padding-left: 5em;
@@ -29,6 +29,7 @@
             background-color: var(--page);
             color: var(--text);
             box-shadow: 0px 35px 50px rgba(0, 0, 0, .7);
+            box-sizing: border-box;
         }
         h1, h2, h3 {
             font-family: "Palatino", "Georgia", serif;
@@ -66,28 +67,6 @@
             margin-top: 6em;
             margin-bottom: 8em;
         }
-        .nav-container {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            z-index: 1000;
-        }
-        .navigation {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        .navigation a {
-            color: #333;
-            text-decoration: none;
-            margin: 0 30px;
-            font-weight: 500;
-        }
-        .greek {
-            font-family: "Gentium Plus", "Palatino", serif;
-            font-style: italic;
-            font-size: 1.1em;
-        }
         .last-updated {
             font-size: 0.85em;
             color: #666;
@@ -96,89 +75,81 @@
             padding-top: .3em;
             padding-bottom: 1em;
         }
-        .nav {
+
+        nav {
             display: flex;
             justify-content: center; /* Center links horizontally */
             background: var(--nav); /* Dark background */
             padding: 0;
-            position: fixed; /* Sticks to the top */
-            top: 0;
-            left: 0;
+            margin: 0;
+            white-space: nowrap;
+            position: relative; /* Sticks to the top */
             width: 100%;
             z-index: 1000; /* Ensures it stays above content */
         }
-
-        .nav a {
+        .nav-container {
+            top: 0;
+            left: 0;
+            position: fixed;
+            width: 100%;
+        }
+        nav a {
             color: white;
+            text-transform: capitalize;
             text-decoration: none;
             font-size: 18px;
             font-weight: bold;
+            letter-spacing: 3.2px;
+            line-height: 32.5px;
             transition: color 0.2s;
-            padding-left: 1em;
-            padding-right: 1em;
+            padding: 0px 10px 0px 10px;
         }
-
-        .nav a:hover {
+        nav a:hover {
             color: var(--active); /* Highlight color on hover */
         }
-
-        .nav a.active {
+        nav a.active {
             background: var(--active);
             color: var(--nav);
         }
-
-        .nav a.active:hover {
+        nav a.active:hover {
             color: white;
         }
-
         .scroll-progress {
-            position: fixed;
-            top: calc(2rem);
-            left: 0;
             width: 0%;
-            height: 5px;
+            height: .2em;
+            display: block;
+            clear: both;
+            margin: 0;
+            padding: 0;
             background: var(--active);
-            z-index: 9999;
+            border: none;
         }
+
         .hidden {
             display: none;
         }
     </style>
     <style>
-        /* Medium screens (tablets) */
         @media (max-width: 1024px) {
             body {
-                width: 70%; /* Increase width for tablets */
-                margin: 3em auto; /* Reduce margin for tablets */
-                padding: 2em; /* Adjust padding for tablets */
-                font-size: 1.4rem; /* Slightly smaller font size */
-            }
-
-            .nav a {
-                font-size: 16px; /* Slightly smaller navigation text */
+                width: 90%;
+                margin: 3em auto;
+                padding: 2em;
+                font-size: 1.4rem;
             }
         }
 
-        /* Small screens (phones) */
         @media (max-width: 768px) {
             body {
-                width: 90%; /* Full width for phones */
-                margin: 2em auto; /* Reduce margin */
-                padding: 1.5em; /* Less padding on phones */
-                font-size: 1.2rem; /* Smaller font size for better readability */
-                box-shadow: none; /* Remove box shadow on small screens */
+                width: 100%;
+                margin: 1em auto;
+                padding: 1.5em;
+                font-size: 1.2rem;
+                box-shadow: none;
             }
 
             h1, h2, h3 {
                 font-size: 1.5em; /* Smaller titles */
-            }
-
-            .nav a {
-                font-size: 14px; /* Smaller font size for nav links */
-            }
-
-            .scroll-progress {
-                height: 3px; /* Thinner progress bar */
             }
 
             .titles {
@@ -187,40 +158,35 @@
             }
 
             hr {
-                width: 90%; /* Make horizontal rule width match the body width */
+                width: 100%;
             }
         }
 
-        /* Very small screens (small phones) */
         @media (max-width: 480px) {
             body {
-                width: 95%; /* Use almost full width */
-                margin: 1em auto; /* Minimal margin */
-                padding: 1em; /* Minimal padding */
-                font-size: 1rem; /* Further reduce font size */
+                width: 100%;
+                margin: 1em auto;
+                padding: 1em;
+                font-size: 1rem;
             }
 
             h1, h2, h3 {
-                font-size: 1.3em; /* Even smaller titles */
-            }
-
-            .nav a {
-                font-size: 12px; /* Smallest nav text for small screens */
+                font-size: 1.3em;
             }
         }
     </style>
 </head>
 <body>
-    <header class="nav-container">
-        <section class="nav">
+    <div class="nav-container">
+        <nav>
             <a href="/read/euthyphro">Euthyphro</a>
             <a href="/read/ion">Ion</a>
             <a href="/read/laches">Laches</a>
             <a href="/read/meno">Meno</a>
             <a href="/read/apology">Apology</a>
-        </section>
+        </nav>
         <div class="scroll-progress"></div>
-    </header>
+    </div>
 
     <section class="titles">
         <h1> $title$ </h1>
@@ -252,7 +218,7 @@
 
     document.addEventListener("DOMContentLoaded", function () {
         const pageTitle = document.title.trim().toLowerCase();
-        const navLinks = document.querySelectorAll(".nav a");
+        const navLinks = document.querySelectorAll("nav a");
 
         navLinks.forEach(link => {
             if (link.innerText.trim().toLowerCase() === pageTitle) {
