@@ -589,8 +589,8 @@ wisdom makes you lazy. Please to exert yourself, for there is no
 real difficulty in understanding me. What I mean I may explain by an
 illustration of what I do not mean. The poet (Stasinus) sings--
 
-'Of Zeus, the author and creator of all these things, You will not tell:
-for where there is fear there is also reverence.'
+> 'Of Zeus, the author and creator of all these things, You will not tell:
+> for where there is fear there is also reverence.'
 
 Now I disagree with this poet. Shall I tell you in what respect?
 
